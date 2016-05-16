@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC145A8D1CE9724500A7DFE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145A8C1CE9724500A7DFE5 /* main.m */; };
+		FC145A901CE9724500A7DFE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145A8F1CE9724500A7DFE5 /* AppDelegate.m */; };
+		FC145A931CE9724500A7DFE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145A921CE9724500A7DFE5 /* ViewController.m */; };
+		FC145A961CE9724600A7DFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC145A941CE9724600A7DFE5 /* Main.storyboard */; };
+		FC145A981CE9724600A7DFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC145A971CE9724600A7DFE5 /* Assets.xcassets */; };
+		FC145A9B1CE9724600A7DFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC145A991CE9724600A7DFE5 /* LaunchScreen.storyboard */; };
+		FC145AA51CE9728F00A7DFE5 /* NJScrollSliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145AA41CE9728F00A7DFE5 /* NJScrollSliderView.m */; };
+		FC145AA91CE9748300A7DFE5 /* NJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145AA81CE9748300A7DFE5 /* NJTool.m */; };
+		FC145AB31CE97A4800A7DFE5 /* NJInstructionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145AB21CE97A4800A7DFE5 /* NJInstructionViewController.m */; };
+		FC145ABF1CE97D8C00A7DFE5 /* NJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145ABE1CE97D8C00A7DFE5 /* NJFirstViewController.m */; };
+		FC145AC21CE97D9500A7DFE5 /* NJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145AC11CE97D9500A7DFE5 /* NJSecondViewController.m */; };
+		FC145AC51CE97DA000A7DFE5 /* NJThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC145AC41CE97DA000A7DFE5 /* NJThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC145A881CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Obj_ScrollSliderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC145A8C1CE9724500A7DFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC145A8E1CE9724500A7DFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FC145A8F1CE9724500A7DFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FC145A911CE9724500A7DFE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FC145A921CE9724500A7DFE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FC145A951CE9724600A7DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC145A971CE9724600A7DFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC145A9A1CE9724600A7DFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC145A9C1CE9724600A7DFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC145AA31CE9728F00A7DFE5 /* NJScrollSliderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJScrollSliderView.h; sourceTree = "<group>"; };
+		FC145AA41CE9728F00A7DFE5 /* NJScrollSliderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJScrollSliderView.m; sourceTree = "<group>"; };
+		FC145AA71CE9748300A7DFE5 /* NJTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTool.h; sourceTree = "<group>"; };
+		FC145AA81CE9748300A7DFE5 /* NJTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJTool.m; sourceTree = "<group>"; };
+		FC145AAB1CE975F000A7DFE5 /* FontHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontHeader.h; sourceTree = "<group>"; };
+		FC145AB11CE97A4800A7DFE5 /* NJInstructionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJInstructionViewController.h; sourceTree = "<group>"; };
+		FC145AB21CE97A4800A7DFE5 /* NJInstructionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJInstructionViewController.m; sourceTree = "<group>"; };
+		FC145ABD1CE97D8C00A7DFE5 /* NJFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJFirstViewController.h; sourceTree = "<group>"; };
+		FC145ABE1CE97D8C00A7DFE5 /* NJFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJFirstViewController.m; sourceTree = "<group>"; };
+		FC145AC01CE97D9500A7DFE5 /* NJSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJSecondViewController.h; sourceTree = "<group>"; };
+		FC145AC11CE97D9500A7DFE5 /* NJSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJSecondViewController.m; sourceTree = "<group>"; };
+		FC145AC31CE97DA000A7DFE5 /* NJThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJThirdViewController.h; sourceTree = "<group>"; };
+		FC145AC41CE97DA000A7DFE5 /* NJThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC145A851CE9724500A7DFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC145A7F1CE9724500A7DFE5 = {
+			isa = PBXGroup;
+			children = (
+				FC145A8A1CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView */,
+				FC145A891CE9724500A7DFE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC145A891CE9724500A7DFE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC145A881CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC145A8A1CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				FC145AAA1CE975D600A7DFE5 /* Header */,
+				FC145AA61CE9742500A7DFE5 /* Tools */,
+				FC145AA21CE9727300A7DFE5 /* NJScrollSliderView */,
+				FC145AB01CE97A4800A7DFE5 /* ProductInstructions */,
+				FC145A8E1CE9724500A7DFE5 /* AppDelegate.h */,
+				FC145A8F1CE9724500A7DFE5 /* AppDelegate.m */,
+				FC145A911CE9724500A7DFE5 /* ViewController.h */,
+				FC145A921CE9724500A7DFE5 /* ViewController.m */,
+				FC145A941CE9724600A7DFE5 /* Main.storyboard */,
+				FC145A971CE9724600A7DFE5 /* Assets.xcassets */,
+				FC145A991CE9724600A7DFE5 /* LaunchScreen.storyboard */,
+				FC145A9C1CE9724600A7DFE5 /* Info.plist */,
+				FC145A8B1CE9724500A7DFE5 /* Supporting Files */,
+			);
+			path = iOS_Obj_ScrollSliderView;
+			sourceTree = "<group>";
+		};
+		FC145A8B1CE9724500A7DFE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC145A8C1CE9724500A7DFE5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC145AA21CE9727300A7DFE5 /* NJScrollSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				FC145AA31CE9728F00A7DFE5 /* NJScrollSliderView.h */,
+				FC145AA41CE9728F00A7DFE5 /* NJScrollSliderView.m */,
+			);
+			path = NJScrollSliderView;
+			sourceTree = "<group>";
+		};
+		FC145AA61CE9742500A7DFE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				FC145AA71CE9748300A7DFE5 /* NJTool.h */,
+				FC145AA81CE9748300A7DFE5 /* NJTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		FC145AAA1CE975D600A7DFE5 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				FC145AAB1CE975F000A7DFE5 /* FontHeader.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		FC145AB01CE97A4800A7DFE5 /* ProductInstructions */ = {
+			isa = PBXGroup;
+			children = (
+				FC145AB11CE97A4800A7DFE5 /* NJInstructionViewController.h */,
+				FC145AB21CE97A4800A7DFE5 /* NJInstructionViewController.m */,
+				FC145ABD1CE97D8C00A7DFE5 /* NJFirstViewController.h */,
+				FC145ABE1CE97D8C00A7DFE5 /* NJFirstViewController.m */,
+				FC145AC01CE97D9500A7DFE5 /* NJSecondViewController.h */,
+				FC145AC11CE97D9500A7DFE5 /* NJSecondViewController.m */,
+				FC145AC31CE97DA000A7DFE5 /* NJThirdViewController.h */,
+				FC145AC41CE97DA000A7DFE5 /* NJThirdViewController.m */,
+			);
+			path = ProductInstructions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC145A871CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC145A9F1CE9724600A7DFE5 /* Build configuration list for PBXNativeTarget "iOS_Obj_ScrollSliderView" */;
+			buildPhases = (
+				FC145A841CE9724500A7DFE5 /* Sources */,
+				FC145A851CE9724500A7DFE5 /* Frameworks */,
+				FC145A861CE9724500A7DFE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Obj_ScrollSliderView;
+			productName = iOS_Obj_ScrollSliderView;
+			productReference = FC145A881CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC145A801CE9724500A7DFE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NJ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "程序猿:NiePlus   博客地址:http://nieplus.blog.com";
+				TargetAttributes = {
+					FC145A871CE9724500A7DFE5 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FC145A831CE9724500A7DFE5 /* Build configuration list for PBXProject "iOS_Obj_ScrollSliderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC145A7F1CE9724500A7DFE5;
+			productRefGroup = FC145A891CE9724500A7DFE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC145A871CE9724500A7DFE5 /* iOS_Obj_ScrollSliderView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC145A861CE9724500A7DFE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC145A9B1CE9724600A7DFE5 /* LaunchScreen.storyboard in Resources */,
+				FC145A981CE9724600A7DFE5 /* Assets.xcassets in Resources */,
+				FC145A961CE9724600A7DFE5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC145A841CE9724500A7DFE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC145AA51CE9728F00A7DFE5 /* NJScrollSliderView.m in Sources */,
+				FC145AA91CE9748300A7DFE5 /* NJTool.m in Sources */,
+				FC145A931CE9724500A7DFE5 /* ViewController.m in Sources */,
+				FC145AB31CE97A4800A7DFE5 /* NJInstructionViewController.m in Sources */,
+				FC145A901CE9724500A7DFE5 /* AppDelegate.m in Sources */,
+				FC145AC51CE97DA000A7DFE5 /* NJThirdViewController.m in Sources */,
+				FC145ABF1CE97D8C00A7DFE5 /* NJFirstViewController.m in Sources */,
+				FC145AC21CE97D9500A7DFE5 /* NJSecondViewController.m in Sources */,
+				FC145A8D1CE9724500A7DFE5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FC145A941CE9724600A7DFE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC145A951CE9724600A7DFE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC145A991CE9724600A7DFE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC145A9A1CE9724600A7DFE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC145A9D1CE9724600A7DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC145A9E1CE9724600A7DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC145AA01CE9724600A7DFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_Obj_ScrollSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.nieplus.ChineseCuisine.iOS-Obj-ScrollSliderView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC145AA11CE9724600A7DFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_Obj_ScrollSliderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "come.nieplus.ChineseCuisine.iOS-Obj-ScrollSliderView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC145A831CE9724500A7DFE5 /* Build configuration list for PBXProject "iOS_Obj_ScrollSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC145A9D1CE9724600A7DFE5 /* Debug */,
+				FC145A9E1CE9724600A7DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC145A9F1CE9724600A7DFE5 /* Build configuration list for PBXNativeTarget "iOS_Obj_ScrollSliderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC145AA01CE9724600A7DFE5 /* Debug */,
+				FC145AA11CE9724600A7DFE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC145A801CE9724500A7DFE5 /* Project object */;
+}
