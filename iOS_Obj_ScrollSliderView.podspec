@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "NJScrollSliderView"
+  s.name         = "iOS_Obj_ScrollSliderView"
   s.version      = "0.0.1"
   s.summary      = "滚动视图-0.0.1"
 
