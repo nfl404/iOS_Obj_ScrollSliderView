@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "滚动视图,针对于UISCrollView的封装，同时可以添加多个视图"
 
-  s.homepage     = "http://EXAMPLE/iOS_Obj_ScrollSliderView"
+  s.homepage     = "https://github.com/nfl404/iOS_Obj_ScrollSliderView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
