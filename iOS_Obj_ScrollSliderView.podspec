@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/nfl404/iOS_Obj_ScrollSliderView.git", :tag => "#"0.01" }
+  s.source       = { :git => "https://github.com/nfl404/iOS_Obj_ScrollSliderView.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -116,8 +116,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.framework  = "UIKit"
+  # s.frameworks = "UIKit", ""
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
