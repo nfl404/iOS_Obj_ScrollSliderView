@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "iOS_Obj_ScrollSliderView"
   s.version      = "0.0.1"
-  s.summary      = "A short description of iOS_Obj_ScrollSliderView."
+  s.summary      = "滚动视图"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "滚动视图"
 
   s.homepage     = "http://EXAMPLE/iOS_Obj_ScrollSliderView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
