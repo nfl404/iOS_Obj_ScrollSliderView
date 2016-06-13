@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "滚动视图"
+  s.description  = "滚动视图,针对于UISCrollView的封装，同时可以添加多个视图"
 
   s.homepage     = "http://EXAMPLE/iOS_Obj_ScrollSliderView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
